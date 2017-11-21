@@ -2,5 +2,5 @@
 
 ## Docker build
 ```sh
-$ docker build ./ -t php53-apache
+$ docker build ./ -t hypermkt/php53-apache
 ```

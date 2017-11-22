@@ -1,5 +1,5 @@
 FROM ubuntu:12.04
-MAINTAINER Makoto Chiba <hypermkt@gmail.com>
+LABEL maintainer "hypermkt <hypermkt@gmail.com>"
 
 VOLUME ["/var/www/html"]
 

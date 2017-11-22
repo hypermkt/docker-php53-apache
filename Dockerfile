@@ -12,7 +12,8 @@ RUN apt-get -qq update \
       php5-gd \
       php5-mcrypt \
       php5-mysql \
-      php-pear
+      php-pear \
+      && rm -rf /var/lib/apt/lists/*
 
 RUN pecl install imagick-2.2.2
 RUN pecl install memcache

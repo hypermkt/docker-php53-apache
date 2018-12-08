@@ -4,3 +4,8 @@
 ```sh
 $ docker build ./ -t hypermkt/php53-apache
 ```
+
+## Release
+```sh
+$ docker push hypermkt/php53-apache
+```

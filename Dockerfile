@@ -12,6 +12,7 @@ RUN apt-get -qq update \
       php5-gd \
       php5-mcrypt \
       php5-mysql \
+      php5-curl \
       php-pear \
       && rm -rf /var/lib/apt/lists/*
 
